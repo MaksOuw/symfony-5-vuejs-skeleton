@@ -28,7 +28,7 @@ init: .env build
 build:
 	$(call docker-compose, build)
 
-up: webpack-build
+up: webpack-dev
 	$(call docker-compose, up -d)
 
 down:
