@@ -20,7 +20,8 @@ docker-compose = docker-compose -f docker/docker-compose.yml $1
 
 .DEFAULT_GOAL := help
 
-init: .env build
+init: .env build composer-install npm-install
+	docker create network symfony
 
 .env:
 	cp .env.example .env

@@ -1,5 +1,5 @@
 import '../css/app.css';
-import App from 'App.vue';
+import App from './App.vue';
 import Vue from 'vue';
 
 new Vue({

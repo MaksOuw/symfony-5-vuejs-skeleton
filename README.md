@@ -19,6 +19,7 @@ Dockerized Symfony 5 application stack with VueJS integrated
 ### Initialization
 ```
 make init
+make build
 ```
 
 ### Start application
