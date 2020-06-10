@@ -29,6 +29,7 @@ services:
         volumes:
             - ./vhosts:/etc/apache2/sites-enabled
             - ../app:/var/www/app
+        working_dir: /var/www/app
         networks:
             - symfony
 
